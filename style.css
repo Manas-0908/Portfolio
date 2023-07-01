@@ -231,6 +231,18 @@
   gap: 5px;
 }
 
+.githubLink,a{
+  text-decoration: none;
+  color: #333 ;
+}
+.githubLink,a:visited{
+  color: #333 ;
+  text-decoration: none;
+}
+.githubLink,a:active{
+  color: #333;
+  text-decoration: none;
+}
 .box {
   width: 15px;
   height: 15px;
