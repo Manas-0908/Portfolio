@@ -345,14 +345,20 @@
   }
 
   .aboutMeContainer{
-    transform: none !important;
+   
+    height: 600px;
   }
   .aboutMe{
-    padding: 0 30px;
+    padding: 0;
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
   }
   .aboutMeText{
     margin-right: 0;
+    width: 85%;
   }
 .saluteImgContainer{
   display: none;
@@ -360,8 +366,69 @@
   .aboutMeImg{
     display: none;
   }
+  .aboutDesc{
+        width: 100%;
+  }
 
   .saluteTextContainer{
      margin-left: 8vh;
   }
+  .projects{
+    width: 80%;
+    margin: 0;
+    padding: 10%;
+  }
+  
+}
+
+@media screen and (max-width:767px) {
+
+  .aboutMeContainer{
+   
+    height: 650px;
+  }
+  .aboutMe{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .aboutMeText{
+    margin-right: 0;
+    width: 85%;
+  }
+.saluteImgContainer{
+  display: none;
+}
+  .aboutMeImg{
+    display: none;
+  }
+  .aboutDesc{
+        width: 100%;
+  }
+
+  .saluteTextContainer{
+     margin-left: 8vh;
+  }
+  .jobTitle {
+    font-size: 10vw;
+    color: #333;
+    line-height: 100vh;
+    cursor: default;
+  }
+  .projects{
+    width: 80%;
+    margin: 0;
+    padding: 10%;
+  }
+
+  .laptop{
+    display: none;
+  }
+  .laptopScreen{
+    display: none;
+  }
+
 }
